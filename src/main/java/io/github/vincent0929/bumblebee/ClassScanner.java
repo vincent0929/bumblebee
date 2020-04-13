@@ -45,7 +45,7 @@ public class ClassScanner implements ApplicationContextAware, ResourceLoaderAwar
 
   private void init(ApplicationContext applicationContext) {
     Map<String, ClassProcessor> beanExtensionProcessorMap = applicationContext.getBeansOfType(ClassProcessor.class);
-    if (beanExtensionProcessorMap == null || beanExtensionProcessorMap.isEmpty()) {
+    if (beanExtensionProcessorMap.isEmpty()) {
       return;
     }
 

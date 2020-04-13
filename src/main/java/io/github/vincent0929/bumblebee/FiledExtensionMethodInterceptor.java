@@ -7,6 +7,7 @@ import net.sf.cglib.proxy.MethodProxy;
 import java.lang.reflect.Method;
 import java.util.Map;
 
+@SuppressWarnings({"rawtypes"})
 public class FiledExtensionMethodInterceptor implements MethodInterceptor {
 
   private Map<Class, Class> classMap;
