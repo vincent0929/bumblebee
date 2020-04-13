@@ -7,6 +7,6 @@ import lombok.EqualsAndHashCode;
 @Data
 public class UserOrderVO extends OrderVO {
 
-  private String name;
+    private String name;
 
 }

@@ -7,7 +7,7 @@ import java.util.List;
 
 public interface TestController {
 
-  UserOrderVO get();
+    UserOrderVO get();
 
-  List<UserOrderVO> gets();
+    List<UserOrderVO> gets();
 }

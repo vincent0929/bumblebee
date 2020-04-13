@@ -9,7 +9,7 @@ import java.lang.annotation.Target;
 @Target({ElementType.FIELD})
 public @interface FieldExtension {
 
-  String suffix() default "Str";
+    String suffix() default "Str";
 
-  Class type() default String.class;
+    Class<?> type() default String.class;
 }
